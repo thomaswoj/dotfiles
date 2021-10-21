@@ -1,101 +1,88 @@
 # Taps
+tap 'homebrew/core'
+tap 'homebrew/services'
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
+tap 'shivammathur/php'
+tap 'shivammathur/extensions'
+tap 'minio/stable'
 
 # Binaries
 brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
-brew 'ffmpeg'
 brew 'gh'
 brew 'git'
 brew 'gnupg'
 brew 'grep'
 brew 'httpie'
-brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe/stripe-cli/stripe'
-brew 'svn'
-brew 'trash' # Manage the Trash bin
-brew 'tree' # List directories in a tree structure
-brew 'zlib' # Needed for Memcached
-
-# Spatie Medialibrary
-brew 'jpegoptim'
-brew 'optipng'
-brew 'pngquant'
-brew 'svgo'
-brew 'gifsicle'
+brew 'htop'
 
 # Development
 brew 'php'
 brew 'php@7.4'
+brew 'php@7.3'
+brew 'php@7.2'
+brew 'shivammathur/php/php@7.1'
 brew 'composer'
-brew 'imagemagick'
-brew 'libmemcached'
 brew 'meilisearch'
-brew 'memcached'
-brew 'mysql'
+brew 'mysql@5.7'
 brew 'nginx'
 brew 'node'
 brew 'redis'
 brew 'yarn'
+brew 'mailhog'
+brew 'minio/stable/minio'
+brew 'zsh-syntax-highlighting'
 
 # Apps
-cask '1password'
-cask 'caffeine'
 cask 'dbngin'
 cask 'discord'
 cask 'docker'
-cask 'figma'
-cask 'firefox'
+cask 'firefox-developer-edition'
 cask 'github'
 cask 'google-chrome'
-cask 'google-drive'
-cask 'gpg-suite'
 cask 'imageoptim'
-cask 'insomnia'
-cask 'pastebot'
+cask 'postman'
 cask 'phpmon'
-cask 'phpstorm'
-cask 'ray'
-cask 'screenflow'
+cask 'jetbrains-toolbox'
 cask 'signal'
-cask 'slack'
 cask 'tableplus'
-cask 'telegram-desktop'
-cask 'the-unarchiver'
 cask 'tinkerwell'
-cask 'transmit'
-cask 'tunnelbear'
-cask 'tuple'
+cask 'tunnelblick'
 cask 'visual-studio-code'
 cask 'zoom'
+cask 'microsoft-teams'
+cask 'omnidisksweeper'
+cask 'aerial'
+cask 'appcleaner'
+cask 'onyx'
 
 # Quicklook
 cask 'qlmarkdown'
 cask 'quicklook-json'
+cask 'qlcolorcode'
+cask 'qlstephen'
+cask 'qlprettypatch'
+cask 'quicklook-csv'
+cask 'webpquicklook'
 
 # Fonts
-cask 'font-lato'
-cask 'font-open-sans'
-cask 'font-roboto'
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
+cask 'font-jetbrains-mono'
 
 # Mac App Store
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
+mas 'AdGuard for Safari', id: 1440147259
+mas 'Pages', id: 409201541
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
-mas 'Spark', id: 1176895641
-mas 'Speedtest', id: 1153157709
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
+mas 'Codeshot', id: 1541665460
+mas 'DevCleaner', id: 1388020431
+mas 'Icon Set Creator', id: 939343785
+mas 'Magnet', id: 441258766
+mas 'The Unarchiver', id: 425424353

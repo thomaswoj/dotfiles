@@ -64,15 +64,6 @@ cask 'aerial'
 cask 'appcleaner'
 cask 'onyx'
 
-# Quicklook
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'qlcolorcode'
-cask 'qlstephen'
-cask 'qlprettypatch'
-cask 'quicklook-csv'
-cask 'webpquicklook'
-
 # Fonts
 cask 'font-jetbrains-mono'
 

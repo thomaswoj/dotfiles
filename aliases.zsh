@@ -19,6 +19,8 @@ alias library="cd $HOME/Library"
 
 # Laravel
 alias art="php artisan"
+alias vart="valet php artisan"
+alias vc="valet composer"
 alias mfs='php artisan migrate:fresh --seed'
 alias larastan="vendor/bin/phpstan analyse"
 
@@ -47,3 +49,5 @@ alias gc="git checkout"
 alias gpo="git push origin"
 alias gm="git merge"
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+alias awsp="source _awsp"

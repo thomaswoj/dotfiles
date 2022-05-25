@@ -1,8 +1,3 @@
-#### FIG ENV VARIABLES ####
-# Please make sure this block is at the start of this file.
-[ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
-#### END FIG ENV VARIABLES ####
-
 # Path to your dotfiles.
 export DOTFILES=$HOME/.dotfiles
 
@@ -13,7 +8,9 @@ export DOTFILES=$HOME/.dotfiles
 export ZSH=$HOME/.oh-my-zsh
 
 # Enable completions
+if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
 autoload -Uz compinit && compinit
+fi
 
 # Theme Settings
 # export MNML_INSERT_CHAR="$"
@@ -24,7 +21,11 @@ autoload -Uz compinit && compinit
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
+##### WHAT YOU WANT TO DISABLE FOR WARP - BELOW
 ZSH_THEME="agnoster"
+##### WHAT YOU WANT TO DISABLE FOR WARP - ABOVE
+fi
 
 # Hide username in prompt
 DEFAULT_USER=`whoami`
@@ -87,7 +88,11 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
+##### WHAT YOU WANT TO DISABLE FOR WARP - BELOW
 plugins=(git)
+##### WHAT YOU WANT TO DISABLE FOR WARP - ABOVE
+fi
 
 source $ZSH/oh-my-zsh.sh
 
@@ -118,10 +123,11 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
+##### WHAT YOU WANT TO DISABLE FOR WARP - BELOW
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+##### WHAT YOU WANT TO DISABLE FOR WARP - ABOVE
+fi
 
-#### FIG ENV VARIABLES ####
-# Please make sure this block is at the end of this file.
-[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
-#### END FIG ENV VARIABLES ####
+export PATH="/usr/local/sbin:$PATH"

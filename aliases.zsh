@@ -18,11 +18,19 @@ alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 
 # Laravel
+alias v="valet"
+alias pvp="valet php"
+alias vssh='cd ~/homestead_6 && vagrant ssh'
+alias vup='cd ~/homestead_6 && vagrant up'
 alias art="php artisan"
 alias vart="valet php artisan"
 alias vc="valet composer"
 alias mfs='php artisan migrate:fresh --seed'
 alias larastan="vendor/bin/phpstan analyse"
+
+# Huler
+alias echomio="$VALET/mio.santander/laravel-echo-server start"
+alias changelog=""$DOTFILES/.scripts/changelog.sh""
 
 # PHP
 alias phpunit="vendor/bin/phpunit"

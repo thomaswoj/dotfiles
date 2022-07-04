@@ -4,8 +4,9 @@ export DOTFILES=$HOME/.dotfiles
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
+# Custom directory paths
 export ZSH=$HOME/.oh-my-zsh
+export VALET=$HOME/Valet
 
 # Enable completions
 if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
@@ -23,12 +24,9 @@ fi
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
 ##### WHAT YOU WANT TO DISABLE FOR WARP - BELOW
-ZSH_THEME="agnoster"
+ZSH_THEME="alanpeabody"
 ##### WHAT YOU WANT TO DISABLE FOR WARP - ABOVE
 fi
-
-# Hide username in prompt
-DEFAULT_USER=`whoami`
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -78,7 +76,7 @@ export UPDATE_ZSH_DAYS=6
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-HIST_STAMPS="dd.mm.yyyy"
+HIST_STAMPS="dd/mm/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM=$DOTFILES

@@ -26,13 +26,14 @@ brew bundle
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/valet beyondcode/expose
+/opt/homebrew/bin/composer global require laravel/installer laravel/valet beyondcode/expose
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
 
-# Create a code directory
+# Create default directories
 mkdir $HOME/code
+mkdir $HOME/Valet
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
@@ -46,4 +47,4 @@ git config --global core.excludesfile $HOME/.gitignore_global
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
 # Set macOS preferences - we will run this last because this will reload the shell
-source .macos
+# source .macos

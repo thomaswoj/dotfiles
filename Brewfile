@@ -23,6 +23,7 @@ brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'htop'
+brew 'tree'
 
 # Development
 brew 'php'
@@ -38,20 +39,26 @@ brew 'minio/stable/minio'
 brew 'zsh-syntax-highlighting'
 
 # Apps
+cask 'cyberduck'
 cask 'dbngin'
 cask 'discord'
 cask 'docker'
+cask 'flux'
 cask 'firefox-developer-edition'
 cask 'github'
 cask 'google-chrome'
+cask 'hyper'
 cask 'imageoptim'
 cask 'postman'
 cask 'phpmon'
 cask 'jetbrains-toolbox'
+cask 'tower'
 cask 'tableplus'
 cask 'tunnelblick'
+cask 'tinkerwell'
 cask 'visual-studio-code'
 cask 'zoom'
+cask 'slack'
 cask 'microsoft-teams'
 cask 'omnidisksweeper'
 cask 'aerial'
@@ -68,8 +75,5 @@ mas 'AdGuard for Safari', id: 1440147259
 mas 'Pages', id: 409201541
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
-mas 'Codeshot', id: 1541665460
-mas 'DevCleaner', id: 1388020431
-mas 'Icon Set Creator', id: 939343785
-mas 'Magnet', id: 441258766
 mas 'The Unarchiver', id: 425424353
+mas 'Hidden Bar', id: 1452453066

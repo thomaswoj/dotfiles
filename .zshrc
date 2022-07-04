@@ -6,7 +6,7 @@ export DOTFILES=$HOME/.dotfiles
 
 # Custom directory paths
 export ZSH=$HOME/.oh-my-zsh
-export VALET=$HOME/Valet
+export VALET=$HOME/valet
 
 # Enable completions
 if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then

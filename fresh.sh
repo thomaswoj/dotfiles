@@ -33,7 +33,7 @@ $HOME/.composer/vendor/bin/valet install
 
 # Create default directories
 mkdir $HOME/code
-mkdir $HOME/Valet
+mkdir $HOME/valet
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc

@@ -25,7 +25,7 @@ fi
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
 ##### WHAT YOU WANT TO DISABLE FOR WARP - BELOW
-ZSH_THEME="alanpeabody"
+ZSH_THEME="minimal"
 ##### WHAT YOU WANT TO DISABLE FOR WARP - ABOVE
 fi
 
@@ -124,7 +124,7 @@ export LANG=en_US.UTF-8
 
 if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
 ##### WHAT YOU WANT TO DISABLE FOR WARP - BELOW
-# source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ##### WHAT YOU WANT TO DISABLE FOR WARP - ABOVE
 fi

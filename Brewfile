@@ -37,6 +37,7 @@ brew 'yarn'
 brew 'mailhog'
 brew 'minio/stable/minio'
 brew 'zsh-syntax-highlighting'
+brew 'symfony-cli/tap/symfony-cli'
 
 # Apps
 cask 'cyberduck'
@@ -70,9 +71,5 @@ cask 'krisp'
 cask 'font-jetbrains-mono'
 
 # Mac App Store
-mas 'AdGuard for Safari', id: 1440147259
-mas 'Pages', id: 409201541
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
 mas 'The Unarchiver', id: 425424353
 mas 'Hidden Bar', id: 1452453066

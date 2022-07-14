@@ -30,7 +30,7 @@ alias larastan="vendor/bin/phpstan analyse"
 
 # Huler
 alias echomio="$VALET/mio.santander/laravel-echo-server start"
-alias changelog=""$DOTFILES/.scripts/changelog.sh""
+alias changelog=""$DOTFILES/scripts/changelog.sh""
 
 # PHP
 alias phpunit="vendor/bin/phpunit"

@@ -22,6 +22,9 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
+# imagemagick warning
+echo "For imagemagick support please: brew install pkg-config imagemagick && pecl install imagick, for each php version"
+
 # Show hidden files in finder by default
 defaults write http://com.apple.Finder AppleShowAllFiles true
 

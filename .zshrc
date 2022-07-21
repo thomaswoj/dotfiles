@@ -4,6 +4,7 @@ export DOTFILES=$HOME/.dotfiles
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=/opt/homebrew/bin:$PATH
+export PATH=/opt/homebrew/Cellar/mysql@5.7/5.7.38/bin:$PATH
 
 # Custom directory paths
 export ZSH=$HOME/.oh-my-zsh

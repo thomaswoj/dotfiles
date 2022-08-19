@@ -1,0 +1,8 @@
+[mysqld]
+key_buffer_size=384M
+table_open_cache=4000
+sort_buffer_size=4M
+read_buffer_size=1M
+max_allowed_packet=5000M
+default-time-zone='+00:00'
+net_buffer_length=10000000

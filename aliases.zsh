@@ -29,7 +29,7 @@ alias mfs='php artisan migrate:fresh --seed'
 alias larastan="vendor/bin/phpstan analyse"
 
 # Huler
-alias echomio="$VALET/mio.santander/laravel-echo-server start"
+alias echomio="cd $VALET/mio.santander && laravel-echo-server start"
 alias changelog=""$DOTFILES/scripts/changelog.sh""
 
 # PHP

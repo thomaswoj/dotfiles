@@ -8,7 +8,7 @@ export PATH=/opt/homebrew/Cellar/mysql@5.7/5.7.38/bin:$PATH
 
 # Custom directory paths
 export ZSH=$HOME/.oh-my-zsh
-export VALET=$HOME/valet
+export VALET=$HOME/Valet
 
 # Enable completions
 if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then

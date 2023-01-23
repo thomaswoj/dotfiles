@@ -32,6 +32,12 @@ alias larastan="vendor/bin/phpstan analyse"
 alias echomio="cd $VALET/mio.santander && laravel-echo-server start"
 alias changelog=""$DOTFILES/scripts/changelog.sh""
 
+# MySQL
+function mysqls() {
+  # Ref: https://github.com/TablePlus/DBngin/issues/38#issuecomment-731698284
+  command mysql --socket /tmp/mysql_$1.sock -uroot
+}
+
 # PHP
 alias phpunit="vendor/bin/phpunit"
 alias c="composer"

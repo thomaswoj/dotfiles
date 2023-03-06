@@ -20,6 +20,8 @@ cat > CHANGELOG/${TICKETID}.md << EOF
 -
 ##### Changed
 -
+##### Optimized
+-
 ##### Removed
 -
 EOF

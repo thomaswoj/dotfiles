@@ -33,10 +33,8 @@ alias echomio="cd $VALET/mio.santander && laravel-echo-server start"
 alias changelog=""$DOTFILES/scripts/changelog.sh""
 
 # MySQL
-function mysqls() {
-  # Ref: https://github.com/TablePlus/DBngin/issues/38#issuecomment-731698284
-  command mysql --socket /tmp/mysql_$1.sock -uroot
-}
+# Ref: https://github.com/TablePlus/DBngin/issues/38#issuecomment-731698284
+alias mysqls="mysql --socket /tmp/mysql_3306.sock"
 
 # PHP
 alias phpunit="vendor/bin/phpunit"

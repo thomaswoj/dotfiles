@@ -38,6 +38,7 @@ brew 'mailhog'
 brew 'minio/stable/minio'
 brew 'zsh-syntax-highlighting'
 brew 'symfony-cli/tap/symfony-cli'
+brew 'pv'
 
 # Apps
 cask 'cyberduck'

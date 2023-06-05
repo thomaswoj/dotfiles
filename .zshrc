@@ -10,6 +10,9 @@ export PATH=/opt/homebrew/Cellar/mysql@5.7/5.7.38/bin:$PATH
 export ZSH=$HOME/.oh-my-zsh
 export VALET=$HOME/Valet
 
+# JDK
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home"
+
 # Enable completions
 if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
 autoload -Uz compinit && compinit

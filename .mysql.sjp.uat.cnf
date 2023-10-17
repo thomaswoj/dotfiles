@@ -1,0 +1,7 @@
+[mysqld]
+key_buffer_size=16M
+table_open_cache=1773
+sort_buffer_size=256K
+read_buffer_size=256K
+max_allowed_packet=64M
+net_buffer_length=16K

@@ -19,6 +19,7 @@ export PATH="/opt/homebrew/opt/gradle@7/bin:$PATH"
 #export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
 # This loads nvm
+# Set default via: nvm alias default {version}
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
